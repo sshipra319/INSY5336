@@ -3,7 +3,7 @@
     "def check():                                                #check function to check for integer value\n",
     "    val1 = input(\"Please enter an integer: \")\n",
     "    while(True):\n",
-    "        try:                                                #if value is integer then it will return the value\n",
+    "        try:                                                 #if value is integer then it will return the value\n",
     "            s = int(val1)\n",
     "            return s\n",
     "        except:\n",
@@ -12,7 +12,7 @@
    
     "val = input(\"Enter set of 3 or 4 integers: \")               #ask for the number of values to be entered\n",
     "if val == '3':                                              \n",
-    "    x1 = check()                                            #check function use to check for valid integer value\n",
+    "    x1 = check()                                             #check function use to check for valid integer value\n",
     "    x2 = check()\n",
     "    x3 = check()\n",
     "    num_lst1 = [x1, x2, x3]                                 #created the list of the entered numbers\n",
