@@ -1,7 +1,6 @@
-
   
-    "def check():                                                #check function to check for integer value\n",
-    "    val1 = input(\"Please enter an integer: \")\n",
+    def check():                                                #check function to check for integer value\n",
+        val1 = input(\"Please enter an integer: \")\n",
     "    while(True):\n",
     "        try:                                                 #if value is integer then it will return the value\n",
     "            s = int(val1)\n",
